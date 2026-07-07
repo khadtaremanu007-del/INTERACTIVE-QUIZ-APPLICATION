@@ -1,0 +1,144 @@
+/* Style for the entire page */
+body{
+    margin:0;
+    padding:0;
+    background-color:#dbeafe;
+    font-family:Arial, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Main quiz box */
+.quiz-container{
+
+    width:500px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Quiz heading */
+h1{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:25px;
+}
+
+/* Question */
+#question{
+
+    margin-bottom:25px;
+
+    color:#333;
+}
+
+/* Answer buttons */
+.btn{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:10px 0;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+/* Button hover effect */
+.btn:hover{
+
+    background:#1d4ed8;
+}
+
+/* Next button */
+#next-btn{
+
+     display:none;
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:20px;
+
+    border:none;
+
+    background:green;
+
+    color:white;
+
+    font-size:18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+/* Next button hover */
+#next-btn:hover{
+
+    background:darkgreen;
+}
+
+#question-number{
+
+    text-align:center;
+
+    font-size:18px;
+
+    color:gray;
+
+    margin-bottom:15px;
+}
+
+#restart-btn{
+
+    display:none;
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    border:none;
+
+    background:#f59e0b;
+
+    color:white;
+
+    font-size:18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+#restart-btn:hover{
+
+    background:#d97706;
+}
